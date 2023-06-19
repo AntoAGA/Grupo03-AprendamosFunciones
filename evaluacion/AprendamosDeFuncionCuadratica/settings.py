@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-6=(kwj&9!u^74he9&xq1*v#@z(^6+!ky8k&mpn5q#y4ij)yru1'
+SECRET_KEY = 'django-insecure-r-v$-&dar7n)#bgp1v!=-j*8)h#2cx#!6mj&ce+@r4!7^c1l4v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'trabajo.apps.TrabajoConfig',
+    'app_FuncionCuadratica.apps.AppAprendamosDeFuncionCuadraticaConfig',
 ]
 
 MIDDLEWARE = [
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'evaluacion.urls'
+ROOT_URLCONF = 'AprendamosDeFuncionCuadratica.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'evaluacion.wsgi.application'
+WSGI_APPLICATION = 'AprendamosDeFuncionCuadratica.wsgi.application'
 
 
 # Database

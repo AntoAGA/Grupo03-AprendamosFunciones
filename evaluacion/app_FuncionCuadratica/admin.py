@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import AprendamosDeFuncionCuadratica, Ejercicios, Estudiante, Docente
+admin.site.register(AprendamosDeFuncionCuadratica)
+admin.site.register(Ejercicios)
+admin.site.register(Estudiante)
+admin.site.register(Docente)

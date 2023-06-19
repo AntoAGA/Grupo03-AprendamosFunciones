@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Docente</h3>
+</br>
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Contraseña</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in data %}
+    <tr>
+</table>
+{% for docente in docente_list %}
+<li>{{ docente.email }}-{{docente.nombre}}</li>
+{% endfor %}
+</>
+{% endblock content %}
